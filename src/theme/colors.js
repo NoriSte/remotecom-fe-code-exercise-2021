@@ -2,6 +2,7 @@ import { css } from 'styled-components';
 
 const colors = css`
   --colors-irisBlue: #624de3;
+  --colors-irisBlue-lighter: #D0CAF7;
   --colors-darkBlue: #00234b;
   --colors-redPink: #ff4a5a;
   --colors-cosmos: #ffdbde;

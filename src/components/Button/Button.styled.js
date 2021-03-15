@@ -14,4 +14,15 @@ export const ButtonStyled = styled.button`
 
   background: var(--colors-irisBlue);
   color: var(--colors-blank);
+
+  ${({ bigger }) => bigger ? `
+    min-width: 182px;
+    justify-content: center;
+    ` : null}
+
+  ${({ inverse }) => inverse ? `
+    color: var(--colors-irisBlue);
+    background-color: var(--colors-blank);
+    border: 2px solid var(--colors-irisBlue-lighter);
+  ` : null}
 `;

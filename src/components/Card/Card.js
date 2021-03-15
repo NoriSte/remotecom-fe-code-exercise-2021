@@ -9,6 +9,7 @@ export const Card = styled.div`
 `;
 
 export const CardHeader = styled.div`
+  position: relative;
   padding: var(--spacer);
   border-bottom: 1px solid var(--colors-mischka);
   border-top-left-radius: var(--radius);
@@ -24,4 +25,9 @@ export const CardFooter = styled.div`
   background-color: #f9faff;
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
+  text-align: center;
+
+  a + button {
+    margin-left: 16px;
+  }
 `;
