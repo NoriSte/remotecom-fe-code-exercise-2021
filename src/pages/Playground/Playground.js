@@ -1,6 +1,7 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { Link as RouterLink } from 'react-router-dom';
 
+import Link from 'components/Link';
 import Button from 'components/Button';
 import Filter from 'components/Form/Filter';
 import LoadingLogo from 'components/LoadingLogo';
@@ -45,7 +46,7 @@ export default function Playground() {
         These are some of the base components already built for you. You can{' '}
         <Text size="bodyBold">use and modify</Text> them as you need!
       </TextLight>
-      <Link to="/">Go Home</Link>
+      <RouterLink to="/">Go Home</RouterLink>
 
       <TitleComponent>{`<SearchField>`}</TitleComponent>
       <Demo>
@@ -72,6 +73,11 @@ export default function Playground() {
       <TitleComponent>{`<Button white>`}</TitleComponent>
       <Demo>
         <Button white>Continue</Button>
+      </Demo>
+
+      <TitleComponent>{`<Link>`}</TitleComponent>
+      <Demo>
+        <Link>Continue</Link>
       </Demo>
 
       <TitleComponent>{`<Card>`}</TitleComponent>
