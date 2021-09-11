@@ -3,6 +3,8 @@
 // ---------------------------------------------------------------
 // DOMAIN
 
+/** @typedef {import('../../utils/currency.js').Currency} Currency */
+
 /**
  * @typedef {Object} People
  * @property {number} id
@@ -14,8 +16,6 @@
  * @property {Employment} employment
  *
  * @typedef {'employee' | 'contractor'} Employment
- *
- * @typedef {'EUR' | 'USD' | 'GBP'} Currency
  */
 
 // ---------------------------------------------------------------
