@@ -2,16 +2,17 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 import Button from 'components/Button';
+import Filter from 'components/Form/Filter';
 import LoadingLogo from 'components/LoadingLogo';
 import Text, { TextLight } from 'components/Text';
-import { Card, CardHeader, CardBody, CardFooter } from 'components/Card';
-import { Table, TableThCell, TableCell, TableRow } from 'components/Table';
 import TextField from 'components/Form/TextField';
 import SelectField from 'components/Form/SelectField';
 import SearchField from 'components/Form/SearchField';
+import { Card, CardHeader, CardBody, CardFooter } from 'components/Card';
+import { Table, TableThCell, TableCell, TableRow } from 'components/Table';
 
-import { ReactComponent as IconSearch } from 'theme/icons/search.svg';
 import { ReactComponent as IconUser } from 'theme/icons/user.svg';
+import { ReactComponent as IconSearch } from 'theme/icons/search.svg';
 import { ReactComponent as IconTimesCircle } from 'theme/icons/times-circle.svg';
 
 const Container = styled.main`
@@ -49,6 +50,11 @@ export default function Playground() {
       <TitleComponent>{`<SearchField>`}</TitleComponent>
       <Demo>
         <SearchField placeholder="Search employees..." />
+      </Demo>
+
+      <TitleComponent>{`<Filter>`}</TitleComponent>
+      <Demo>
+        <Filter>Employee</Filter>
       </Demo>
 
       <TitleComponent>{`<Text>`}</TitleComponent>

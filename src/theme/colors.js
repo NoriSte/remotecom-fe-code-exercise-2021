@@ -10,6 +10,7 @@ const colors = css`
   --colors-lynch: #617798;
   --colors-pigeon: #a8bdd4;
   --colors-heather: #b1becd;
+  --colors-spindle: #b7b8eb;
   --colors-heather-rgb: 177, 190, 205;
 
   --colors-mischka: #e8ecee;
