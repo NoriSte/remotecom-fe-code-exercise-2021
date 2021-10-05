@@ -60,7 +60,11 @@ describe('People List page: filters', () => {
 
     // Search for "Joe"
     // Please note: the fetch isn't debounced and every keystroke triggers a fetch
-    cy.findByPlaceholderText('Search employees...').type('Joe')
+    cy.findByPlaceholderText('Search employees...').type('Joe', {
+      // ATTENTION: the default delay is 10 ms but Cypress can't detect the three requests in a row
+      // that start at every keystroke
+      delay: 50,
+    })
 
     // Fetch #1
     cy.wait('@fetch-people')

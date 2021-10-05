@@ -7,7 +7,7 @@ import { theme, GlobalStyles } from './theme';
 import Header from './components/Header';
 
 import Playground from './pages/Playground';
-import People from './pages/People';
+import { People } from './pages/People';
 import AddEditPeople from './pages/AddEditPeople';
 
 export default function App() {

@@ -1,1 +1,1 @@
-export { default } from './People';
+export { default as People } from './PeopleRoot';
