@@ -2,14 +2,16 @@ import { normalize } from 'styled-normalize';
 import { createGlobalStyle } from 'styled-components';
 import fontFaces from './fonts/styles';
 import colors from './colors';
+import shadows from './shadows';
 
 const GlobalStyles = createGlobalStyle`
   ${normalize}
 
   ${fontFaces}
-  
+
   :root {
     ${colors}
+    ${shadows}
 
     --font-primary: "Inter", sans-serif;
     --layout-width: 1100px;
