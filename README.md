@@ -115,8 +115,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm test`
 
+Launches
+1. The unit tests
+2. The front-end app
+3. The Cypress tests (headless)
+
+### `npm run test:unit`
+
 Launches the test runner in the interactive watch mode.\
 Read the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run cy:open`
+
+Launches the Cypress UI.\
 
 ### `npm run seed-db`
 
