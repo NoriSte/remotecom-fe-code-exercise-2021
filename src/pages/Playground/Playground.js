@@ -69,6 +69,11 @@ export default function Playground() {
         <Button>Continue</Button>
       </Demo>
 
+      <TitleComponent>{`<Button white>`}</TitleComponent>
+      <Demo>
+        <Button white>Continue</Button>
+      </Demo>
+
       <TitleComponent>{`<Card>`}</TitleComponent>
       <Demo>
         <Card>
