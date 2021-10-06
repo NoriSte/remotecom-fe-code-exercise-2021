@@ -16,7 +16,7 @@ export const TableRow = styled.tr``;
 
 export const TableThCell = styled.th`
   white-space: nowrap;
-  padding: 18px 0 18px 16px;
+  padding: 18px 16px 18px 16px;
   text-align: left;
   font-size: 0.6875rem;
   text-transform: uppercase;
