@@ -2,6 +2,7 @@ import { css } from 'styled-components';
 
 const colors = css`
   --colors-irisBlue: #624de3;
+  --colors-irisBlue-rgb: 98, 77, 227;
   --colors-darkBlue: #00234b;
   --colors-redPink: #ff4a5a;
   --colors-cosmos: #ffdbde;
@@ -10,8 +11,8 @@ const colors = css`
   --colors-lynch: #617798;
   --colors-pigeon: #a8bdd4;
   --colors-heather: #b1becd;
-  --colors-spindle: #b7b8eb;
   --colors-heather-rgb: 177, 190, 205;
+  --colors-spindle: #b7b8eb;
 
   --colors-mischka: #e8ecee;
   --colors-catskillWhite: #eaf0f6;
