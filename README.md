@@ -141,7 +141,7 @@ This script runs automatically after `npm install`.
 
 The most relevant details are related to:
 
-- **XState**: I think XState could be a superior tool in documenting and modeling what an app does, pushing scalability to the next level. I need to check and validate my hypothesis, and this project became part of my experimenting path. Since I want to avoid being the sole champion of this learning journey and I think spreading knowledge is crucial, I documented as much as possible what the machine does and the design decisions I took in [#9](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/9). FYI: at the same time, I drove an internal XState Working Group.\
+- **XState**: I think XState could be a superior tool in documenting and modeling what an app does, pushing scalability to the next level. I need to check and validate my hypothesis, and this project became part of my experimenting path. Since I want to avoid being the sole champion of this learning journey and I think spreading knowledge is crucial, I documented as much as possible what the machine does and the design decisions I took in [#9](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/9). FYI: at the same time, I drove an internal XState Working Group.\
 \
 The only downside of using XState is that you can't fully evaluate how I would have composed a similar Finite State Machine with pure React Hooks. Please take a look at some of the internal React-Hooks-related rules I spread among the team in [this article of mine](https://dev.to/noriste/routemanager-ui-coding-patterns-react-hooks-4f7l).
 
@@ -150,51 +150,51 @@ The only downside of using XState is that you can't fully evaluate how I would h
   - the great TypeScript' type-inference
   - the documenting potential through discriminated unions
 
-  Anyway, in a real-life scenario, I would not convert a codebase to TypeScript before talking with the team (and with a non-merged PR created by an intern). That's why I took the best of both the TS and JS worlds by using JSDoc and `@type-check` starting from [#8](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/8).
+  Anyway, in a real-life scenario, I would not convert a codebase to TypeScript before talking with the team (and with a non-merged PR created by an intern). That's why I took the best of both the TS and JS worlds by using JSDoc and `@type-check` starting from [#8](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/8).
 
-- **Cypress**: the codebase already includes Jest, but I also introduced Cypress to have long-lasting and better documented (since they are visual) tests in [#7](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/7). Something the whole Product (not only Engineers) could benefit.
+- **Cypress**: the codebase already includes Jest, but I also introduced Cypress to have long-lasting and better documented (since they are visual) tests in [#7](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/7). Something the whole Product (not only Engineers) could benefit.
 ## How to read the project
 
 First of all, you should read the issue I created before started coding:
 
-1. My doubts about the Design Specs and how I proceed with that unknowns (see [#2](https://github.com/remotecom/fe-code-exercise--NoriSte/issues/2))
+1. My doubts about the Design Specs and how I proceed with that unknowns (see [#2](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/issues/2))
 
-Then, it would be best if you read [all the PRs I created, in chronological order](https://github.com/remotecom/fe-code-exercise--NoriSte/pulls), that are:
+Then, it would be best if you read [all the PRs I created, in chronological order](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pulls), that are:
 
-2. The `SearchField` component (see [#3](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/3))
-3. The `Filter` component (see [#4](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/4))
-4. The missing `Button` styles (see [#5](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/5))
-5. The `Link` component (see [#6](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/6))
-6. People list: the functional tests (see [#7](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/7))
-7. JSDoc, the domain types, and the `fetchPeople` service (see [#8](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/8))
-8. The people Finite State Machine (see [#9](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/9))
-9. A slight fix to the table (see [#10](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/10))
-10.  The `currency` utilities  (see [#11](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/11))
-11. People List: success state  (see [#12](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/12))
-12. People List: fetching, no-results, and error states  (see [#13](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/13))
-13. People List: connecting the list to the machine (see [#14](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/14))
-14. People List: the filters (see [#15](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/15))
-15. People List: the header  (see [#16](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/16))
-16. People List: final PR, including a video (see [#17](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/17))
+2. The `SearchField` component (see [#3](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/3))
+3. The `Filter` component (see [#4](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/4))
+4. The missing `Button` styles (see [#5](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/5))
+5. The `Link` component (see [#6](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/6))
+6. People list: the functional tests (see [#7](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/7))
+7. JSDoc, the domain types, and the `fetchPeople` service (see [#8](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/8))
+8. The people Finite State Machine (see [#9](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/9))
+9. A slight fix to the table (see [#10](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/10))
+10.  The `currency` utilities  (see [#11](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/11))
+11. People List: success state  (see [#12](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/12))
+12. People List: fetching, no-results, and error states  (see [#13](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/13))
+13. People List: connecting the list to the machine (see [#14](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/14))
+14. People List: the filters (see [#15](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/15))
+15. People List: the header  (see [#16](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/16))
+16. People List: final PR, including a video (see [#17](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/17))
 
 ***Please note**: I piled every PR on the previous one, something I usually to ease the reader and to tell "a story" of the code. Every PR contains just a bunch of files and a long description. During the challenge, I fixed multiple times the PRs to improve the storytelling, that's why every PR includes a lot of force pushes.*
 
 Last but not least:
 
-17. The code review: in a real-life scenario, I would add some of the feedback i reported there in a company-wide Wiki, to ease other interns and save time to other Senior Engineers (see [#1](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/1))
+17. The code review: in a real-life scenario, I would add some of the feedback i reported there in a company-wide Wiki, to ease other interns and save time to other Senior Engineers (see [#1](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/1))
 
 
 ### PRs by topics
 
 If you prefer navigating the PRs by topic, skipping the minor ones, here is a quick reference
 
-| Are you interested in...? | Take a look at...                                                                                                                                                                                             |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| CSS                       | [#3](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/3)                                                                                                                                           |
-| JSX                       | [#14](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/14)                                                                                                                                         |
-| React hooks               | [#14](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/14), [#17](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/17)                                                                  |
-| Tests                     | [#7](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/7), [#9](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/9)                                                                      |
-| XState                    | [#9](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/9)                                                                                                                                           |
-| Design decisions          | [#9](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/9), [#3](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/3), [#8](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/8) |
-| Proactivity               | [#2](https://github.com/remotecom/fe-code-exercise--NoriSte/issues/2)                                                                                                                                         |
-| Mentoring                 | [#1](https://github.com/remotecom/fe-code-exercise--NoriSte/pull/1)                                                                                                                                           |
+| Are you interested in...? | Take a look at...                                                                                                                                                                                                         |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CSS                       | [#3](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/3)                                                                                                                                                   |
+| JSX                       | [#14](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/14)                                                                                                                                                 |
+| React hooks               | [#14](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/14), [#17](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/17)                                                                      |
+| Tests                     | [#7](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/7), [#9](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/9)                                                                          |
+| XState                    | [#9](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/9)                                                                                                                                                   |
+| Design decisions          | [#9](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/9), [#3](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/3), [#8](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/8) |
+| Proactivity               | [#2](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/issues/2)                                                                                                                                                 |
+| Mentoring                 | [#1](https://github.com/NoriSte/remotecom-fe-code-exercise-2021/pull/1)                                                                                                                                                   |
