@@ -16,13 +16,23 @@
     "npm": "7.x"
   },
   "scripts": {
-    "seed-db": "node src/server/initJsonDb",
-    "server": "json-server --watch --port 4002 --delay 1500 src/server/db.json",
+    "// SETUP ////////////////////////////////////////////": "",
+    "postinstall": "npm run seed-db",
+    "// DEV //////////////////////////////////////////////": "",
     "start": "concurrently \"npm run server\" \"react-scripts start\"",
+    "start:frontend": "react-scripts start",
+    "cy:open": "cypress open",
+    "// BUILD ////////////////////////////////////////////": "",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postinstall": "npm run seed-db"
+    "// TESTS ////////////////////////////////////////////": "",
+    "test": "npm run test:unit -- --watchAll=false && start-server-and-test start:frontend http://localhost:3000 test:e2e",
+    "test:unit": "react-scripts test",
+    "test:e2e": "npm run cy:run",
+    "cy:run": "cypress run",
+    "// SERVER ///////////////////////////////////////////": "",
+    "seed-db": "node src/server/initJsonDb",
+    "server": "json-server --watch --port 4002 --delay 1500 src/server/db.json"
   },
   "eslintConfig": {
     "extends": [
@@ -45,13 +55,17 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/cypress": "^8.0.0",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.8.3",
     "concurrently": "^5.3.0",
-    "eslint-config-prettier": "^7.2.0",
-    "eslint-plugin-prettier": "^3.3.1",
+    "cypress": "^8.3.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "json-server": "^0.16.3",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "start-server-and-test": "^1.13.1"
   }
 }
