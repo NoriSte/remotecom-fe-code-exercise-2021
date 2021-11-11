@@ -22,7 +22,7 @@ This challenge is divided into 2 parts:
 
 ### 🚀 1. Feature implementation
 
-This is a basic CRUD (without the delete) of people. You'll implement the "People list" page:
+This is a basic CRUD (without the delete) of people. You'll implement [the "People list" page](https://www.figma.com/file/ypsdDsJCUYq75YuwHl0tQ3/FE-code-exercise-(NoriSte)-(clone)?node-id=3329%3A1281):
 
 - Display a table with a list of people and their attributes.
 - Searching by name.
@@ -31,7 +31,7 @@ This is a basic CRUD (without the delete) of people. You'll implement the "Peopl
 
 You can use any extra tools you need to accomplish this. We want to respect your time and there's no need to reinvent the wheel.
 
-For further notes, follow the design specs in the Figma file shared with you by e-mail.
+For further notes, follow [the design specs in the Figma file](https://www.figma.com/file/ypsdDsJCUYq75YuwHl0tQ3/FE-code-exercise-(NoriSte)-(clone)?node-id=3329%3A1281).
 
 #### What we will look at
 
