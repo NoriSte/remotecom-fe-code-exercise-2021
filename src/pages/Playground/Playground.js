@@ -8,6 +8,7 @@ import { Card, CardHeader, CardBody, CardFooter } from 'components/Card';
 import { Table, TableThCell, TableCell, TableRow } from 'components/Table';
 import TextField from 'components/Form/TextField';
 import SelectField from 'components/Form/SelectField';
+import SearchField from 'components/Form/SearchField';
 
 import { ReactComponent as IconSearch } from 'theme/icons/search.svg';
 import { ReactComponent as IconUser } from 'theme/icons/user.svg';
@@ -44,6 +45,11 @@ export default function Playground() {
         <Text size="bodyBold">use and modify</Text> them as you need!
       </TextLight>
       <Link to="/">Go Home</Link>
+
+      <TitleComponent>{`<SearchField>`}</TitleComponent>
+      <Demo>
+        <SearchField placeholder="Search employees..." />
+      </Demo>
 
       <TitleComponent>{`<Text>`}</TitleComponent>
       <Demo>

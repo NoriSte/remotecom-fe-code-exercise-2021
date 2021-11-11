@@ -10,6 +10,8 @@ const colors = css`
   --colors-lynch: #617798;
   --colors-pigeon: #a8bdd4;
   --colors-heather: #b1becd;
+  --colors-heather-rgb: 177, 190, 205;
+
   --colors-mischka: #e8ecee;
   --colors-catskillWhite: #eaf0f6;
   --colors-linkWater: #f4f7fc;
