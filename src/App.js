@@ -8,7 +8,8 @@ import Header from './components/Header';
 
 import Playground from './pages/Playground';
 import People from './pages/People';
-import AddEditPeople from './pages/AddEditPeople';
+import EditPeople from './pages/EditPeople';
+import AddPeople from './pages/AddPeople';
 
 export default function App() {
   return (
@@ -21,10 +22,10 @@ export default function App() {
             <People />
           </Route>
           <Route path="/people/new">
-            <AddEditPeople />
+            <AddPeople />
           </Route>
           <Route path="/people/edit/:id">
-            <AddEditPeople />
+            <EditPeople />
           </Route>
           <Route path="/playground">
             <Playground />
